@@ -1,11 +1,11 @@
 %define module	Log-Agent
 %define name	perl-%{module}
 %define version	0.307
-%define release	1mdk
+%define rel    	2
 
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	%mkrel %{rel}
 Summary:  	Logging agent 
 License:	GPL or Artistic
 Group:		Development/Perl
