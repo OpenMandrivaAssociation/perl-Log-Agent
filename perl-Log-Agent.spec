@@ -15,7 +15,6 @@ URL:		http://search.cpan.org/dist/%{module}/
 Buildrequires:	perl-devel
 %endif
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Log::Agent is a general logging framework aimed at reusable modules.
