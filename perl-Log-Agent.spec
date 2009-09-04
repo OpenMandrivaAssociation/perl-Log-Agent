@@ -1,7 +1,7 @@
 %define module	Log-Agent
 %define name	perl-%{module}
 %define version	0.307
-%define rel    	2
+%define rel    	3
 
 Name:		%{name}
 Version:	%{version}
