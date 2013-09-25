@@ -1,2 +1,4 @@
+removed_sources:
+  Log-Agent-0.307.tar.bz2: a55a5f5ec67e28b40c5e2eca37ccb31b326581db
 sources:
-  "Log-Agent-0.307.tar.bz2": a55a5f5ec67e28b40c5e2eca37ccb31b326581db
+  Log-Agent-1.000.tar.gz: 8e38a4f82eab78a7d8df92e7d6a873a4bc34e85c

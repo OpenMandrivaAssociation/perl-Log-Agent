@@ -1,13 +1,14 @@
 %define module	Log-Agent
+%define upstream_version 1.000
 
 Name:		perl-%{module}
-Version:	0.307
-Release:	4
+Version:	%perl_convert_version %{upstream_version}
+Release:	1
 Summary:  	Logging agent 
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
-Source:		http://search.cpan.org/CPAN/authors/id/M/MR/MROGASKI/%{module}-%{version}.tar.bz2
+Source:		http://www.cpan.org/authors/id/M/MR/MROGASKI/Log-Agent-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -16,8 +17,7 @@ BuildArch:	noarch
 Log::Agent is a general logging framework aimed at reusable modules.
 
 %prep
-
-%setup -q -n %{module}-%{version} 
+%setup -q -n %{module}-%{upstream_version} 
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -64,4 +64,5 @@ make test
 - do not own standard dir
 - from Gaetan Lehmann <gaetan.lehmann@jouy.inra.fr> 
   - initial contrib.
+
 
