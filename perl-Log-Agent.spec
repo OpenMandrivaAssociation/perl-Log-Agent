@@ -10,6 +10,7 @@ Group:		Development/Perl
 URL:		https://search.cpan.org/dist/%{module}/
 Source:		http://www.cpan.org/authors/id/M/MR/MROGASKI/Log-Agent-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
