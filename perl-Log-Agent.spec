@@ -1,14 +1,14 @@
 %define module	Log-Agent
-%define upstream_version 1.000
+%define upstream_version 1.004
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Summary:  	Logging agent 
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{module}/
-Source:		http://www.cpan.org/authors/id/M/MR/MROGASKI/Log-Agent-%{upstream_version}.tar.gz
+URL:		https://metacpan.org/dist/Log-Agent
+Source:		https://cpan.metacpan.org/authors/id/M/MR/MROGASKI/Log-Agent-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
